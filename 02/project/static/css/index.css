@@ -1,0 +1,48 @@
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgba(44, 42, 42, 0.877);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+}    
+
+h1{
+    text-align: center;
+}
+hr{
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+
+.block{
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(31, 31, 31);
+}
+
+.divider{
+    width: 1px;
+    padding: 20px;
+}
+
+.about_me{
+    flex: 3;
+    padding: 20px;
+}
+
+p{
+    line-height: 40px;
+}
+a{
+    color: rgb(50, 146, 255);
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.heading_about_me{
+    text-align: center;
+}
